@@ -1,5 +1,7 @@
 # Web Microphone Websocket
 
+This example is taken from here: [link](https://github.com/mozilla/DeepSpeech-examples)
+
 This is an example of a ReactJS web application streaming microphone audio from the browser
 to a NodeJS server and transmitting the DeepSpeech results back to the browser.
 
@@ -13,17 +15,17 @@ wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0
 #### Install:
 
 ```
-yarn install
+npm install
 ```
 
 #### Run ReactJS Client:
 
 ```
-yarn start
+npm start
 ```
 
 #### Run NodeJS Server (in a separate terminal window):
 
 ```
-node server.js
+npm server.js
 ```
